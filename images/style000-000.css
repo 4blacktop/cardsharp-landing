@@ -1,0 +1,165 @@
+
+
+a {transition: color 0.2s ease-out; -moz-transition: color 0.2s ease-out; -o-transition: color 0.2s ease-out; -webkit-transition: color 0.2s ease-out;}
+html {height: 100%; padding: 0px;}
+body {background:#ffffff;  font-family: Verdana; font-size: 12px; color:#999; height: 100%; margin: 0px; padding: 0px;  background:url('header_b.jpg') repeat}
+
+header {width:100%; height:520px; background:url('header_b.jpg') no-repeat;}
+header .holder {margin:0px auto; height:570px; padding:0px 20px; width:1020px; background:#ffffff; box-shadow:0px 0px 50px rgba(0,0,0,.3);}
+
+header form {margin:5px 2px 20px 50px;}
+header form input {margin-bottom:10px;}
+
+.second {width:100%; background:url('second_b.jpg') repeat; text-align:center; padding-bottom:10px; margin-top: 50px;}
+.second .holder {padding:0px 20px; min-width:1020px; width:60%; display:inline-block;}
+
+.second .trigger {width:25%; font-size:1.1em; font-weight:bold; color:#FFF; text-shadow:0px 1px 0px rgba(10,10,10,.3); text-align:center; display:inline-block;}
+.second .trigger img {width:50%; margin: 0 auto; display:block; margin-bottom: -5px;}
+
+
+.mainblock {width:100%; margin:0px; padding:0px;}
+.mainblock .holder {padding:0px 20px 20px 20px; padding-top:13px; width:1020px; margin:0px auto; box-shadow:0px 10px 50px rgba(0,0,0,.3); background:rgba(255,255,255,.95);
+ border-radius:0px 0px 4px 4px; -webkit-border-radius:0px 0px 4px 4px; -moz-border-radius:0px 0px 4px 4px;
+
+
+}
+
+
+#logo {float:left; width:520px; text-align:left; margin-top:10px;}
+.phone {width:460px;float:right; text-align:right; font-size:11pt; margin-top:12px;}
+
+#subscribeblock {width:100%; height:430px; font-family: 'Lobster'; background:url('top00000.jpg') no-repeat top left; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px; margin-top:8px;}
+#image {float:left; width:460px; height:380px; background:url('http://cardsharp-store.ru/images/mannequins.jpg') no-repeat top left; background-size:cover;  border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px;}
+
+.popup {display:none; background:#ffffff; padding:15px; width:400px; min-height:100px; border-radius:5px; font-size:12pt;}
+.popup form {margin:15px 0px;}
+
+.popup_img {display:none; background:#ffffff; padding:15px; min-height:100px; border-radius:5px; font-size:12pt;}
+.popup_img form {margin:15px 0px;}
+
+.mail {text-decoration:none; border-bottom:1px dashed #474747; color:#999; font-size:12pt;}
+.mail:hover {color:#292c31;}
+
+.mail2 {text-decoration:none; border-bottom:1px solid #F00; color:#f00; font-size:12pt;}
+.mail2:hover {color:#910000;}
+
+
+
+.sale {width:410px; height:390px; background:rgba(255, 255, 255, 0.85); float:right;  font-weight:normal; text-align:left; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px; margin:20px 20px 0px 0px;}
+
+.salele {width:460px; height:340px; background:rgba(255, 255, 255, 0.85); float:right; font-weight:normal; text-align:left; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px; margin:20px 20px 0px 0px;}
+
+#countdown span {font-size:36px; color:#af0a0a; font-weight:bold}
+#countdown b {font-size:10px; font-weight:normal;}
+.subcount {font-size:10px; font-weight:normal;}
+
+.redbutton {height:30px; cursor:pointer; background:#F00; color:#ffffff; font-size:16pt; border:1px solid #FF0000; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px; font-variant:small-caps; font-weight:bold;}
+.redbutton:hover {border:1px solid #000000}
+.bluebutton {height:30px; cursor:pointer; background:#F00; color:#ffffff; font-size:17px; border:1px solid #beb9a6; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px;}
+.bluebutton:hover {border:1px solid #000000}
+
+.inputform {height:25px; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px; font-size:12pt; width:360px; padding-left:5px; font-weight:normal; color:#828b96}
+
+.b-close {float:right; background:#474747; padding:1px 5px 3px 5px; font-size:8pt; position:absolute; right:5px; top:5px; color:#ffffff; border-radius:3px; cursor:pointer;}
+.b-close:hover {background:#F00;}
+
+.trigger {width:215px; float:left;}
+
+h1 {font-size:19px; color:#87b74b;}
+h2 {font-size:16px; color:#87b74b;}
+
+.item {width:245px; float:left; text-decoration:none; text-align:center;overflow:hidden; height:370px;}
+.item .image {width:245px; height:310px; background-repeat:no-repeat; background-size:cover;}
+
+::selection {background: #9bc566;}
+::-moz-selection {background: #9bc566;}
+
+
+
+
+#countdown_dashboard {
+	height: 80px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+}
+
+.dash {
+	width: 70px;
+	height: 70px;
+	background: transparent url('dash0000.png') 0 0 no-repeat;
+	float: left;
+	margin-right: 18px;
+	position: relative;
+
+}
+
+.dash .digit {
+	font-size: 32pt;
+	float: left;
+	width: 35px;
+	text-align: center;
+	color: #000;
+	position: relative;
+
+}
+
+.dash_title {
+	position: absolute;
+	display: block;
+	bottom: 0px;
+	font-size: 8pt;
+
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight:bold;
+	color:#666;
+	
+}
+
+
+
+
+
+.review  {
+		font-family:Verdana, Geneva, sans-serif;
+		width:530px;
+		margin:0px 10px 20px 10px;
+		float:left;
+		text-decoration:none;
+		text-align:center;
+		overflow:hidden; text-align:left;
+		 background:rgba(255, 255, 255, 0.75);
+		border-radius:4px;
+		-webkit-border-radius:4px;
+		padding:10px;
+		height: 65px;
+		color:#333;
+		margin: 355px 0 0 20px;
+}
+
+.review .name {float:left; margin-bottom:10px; font-size:11pt; font-weight:bold; color:#d04040}
+.review .auto {float:right;font-size:10pt; font-weight:100; color:#777; }
+.review p {text-align:left; clear:both; font-size:10pt; font-style:italic; font-family:Verdana, Geneva, sans-serif;  }
+.review .quote {font-size:32pt; font-style:italic; color:#999; font-family:Times,serif; font-weight:bold; position:absolute;  }
+
+.bb {
+background:rgba(255,255,255,.95); border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px;
+}
+
+.bbq {
+background:rgba(255,255,255,.95); border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px;
+}
+.bbq p {
+	width: 450px;	
+}
+
+
+
+.certific {height: 250px;}
+.ai {float:left; margin-left:15px; margin-bottom: 15px; width: 150px; height: 200px;}
+
+.img-line {float: left; margin:20px 0 0 0}
+
+.list {text-align: left; float:left; margin-left:250px;}
+
+.list li {list-style: none; font-size:15px; margin-top: 15px;}
